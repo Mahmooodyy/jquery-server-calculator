@@ -13,8 +13,15 @@ app.use(express.static('server/public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // code
-console.log('live');
+console.log('live!');
+let history = [];
+let sendArray = {};
+sendArray = history
 
+app.get('/math', function(req, res) {
+    console.log('in get math');
+    res.send(sendArray);
+});
 
 
 

@@ -1,6 +1,13 @@
 body{
     background-color: blanchedalmond;
 }
+h1, h3{
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.totalContainer{
+    margin-left: 800px;
+}
 
 input {
     border: none;
@@ -39,4 +46,7 @@ button {
    button:active {
     box-shadow: 4px 4px 12px #c5c5c5,
                 -4px -4px 12px #ffffff;
+   }
+   button:focus {
+    color: green;
    }
