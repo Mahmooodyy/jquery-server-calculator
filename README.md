@@ -1,9 +1,7 @@
-# Project Name
-
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+# Server Side Calculator
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
-
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+Made a calculator that does all computing and logic on the server side.
+I am/was new to GET and POST requests so this project was definitely a bit of a challenge.
+There is a history table of all previous equations as well as the total of the inputs.
