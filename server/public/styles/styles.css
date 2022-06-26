@@ -48,5 +48,6 @@ button {
                 -4px -4px 12px #ffffff;
    }
    button:focus {
-    color: green;
+    background-color: green;
    }
+
